@@ -232,6 +232,7 @@
       expandedKeys.value = [];
     } else {
       expandedKeys.value = unref(treeData).map((item: any) => item.key as string) as [];
+      console.log(expandedKeys)
     }
   }
 
