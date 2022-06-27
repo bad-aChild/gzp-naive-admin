@@ -35,6 +35,14 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/form/basicForm/index.vue'),
       },
       {
+        path: 'gzp-form',
+        name: 'form-gzp-form',
+        meta: {
+          title: 'new基础表单',
+        },
+        component: () => import('@/views/form/gzpForm/index.vue'),
+      },
+      {
         path: 'step-form',
         name: 'form-step-form',
         meta: {
