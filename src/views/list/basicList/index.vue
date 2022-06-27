@@ -11,6 +11,7 @@
       :request="loadDataTable"
       :row-key="(row) => row.id"
       ref="actionRef"
+      :bordered="false"
       :actionColumn="actionColumn"
       @update:checked-row-keys="onCheckedRow"
       :scroll-x="1090"
